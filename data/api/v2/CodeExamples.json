@@ -1214,6 +1214,13 @@
       "description": "Update Scanning Rule returns \"OK\" response"
     }
   ],
+  "CreateServiceAccount": [
+    {
+      "group": "service_accounts",
+      "suffix": "",
+      "description": "Create a service account returns \"OK\" response"
+    }
+  ],
   "CreateServiceAccountApplicationKey": [
     {
       "group": "service_accounts",
@@ -1329,13 +1336,6 @@
       "group": "usage_metering",
       "suffix": "_3186693804",
       "description": "GetEstimatedCostByOrg with start_month returns \"OK\" response"
-    }
-  ],
-  "CreateServiceAccount": [
-    {
-      "group": "users",
-      "suffix": "",
-      "description": "Create a service account returns \"OK\" response"
     }
   ],
   "CreateUser": [
